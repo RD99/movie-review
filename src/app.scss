@@ -1,0 +1,143 @@
+body {
+  background-image: linear-gradient(to top, #330867 0%, #30cfd0 100%);
+  color: white;
+}
+
+.header {
+  height: 10vh;
+
+  flex-wrap: wrap;
+  align-items: baseline;
+  img {
+    max-height: 10vh;
+  }
+  header {
+    height: 100%;
+  }
+}
+.login {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  label {
+    color: white;
+  }
+  input {
+    color: white;
+  }
+  .MuiPaper-root {
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    p {
+      margin-top: 10px;
+    }
+    .MuiTextField {
+      color: white;
+    }
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0px;
+  }
+  form {
+    margin: 0 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.signup {
+  .MuiPaper-root {
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    p {
+      margin-top: 10px;
+    }
+    .MuiTextField {
+      color: white;
+    }
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0px;
+  }
+
+  form {
+    flex: 0 50%;
+    margin: 0 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.skip {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.searchbar {
+  display: flex;
+  justify-content: space-around;
+  label {
+    color: white;
+  }
+}
+.moviecard {
+  margin: 20px;
+  .MuiPaper-root {
+    text-align: center;
+    // background-image: linear-gradient(
+    //   -225deg,
+    //   #ac32e4 0%,
+    //   #7918f2 48%,
+    //   #4801ff 100%
+    // );
+    background-color: #3f51b5;
+    color: white;
+
+    p {
+      margin-top: 10px;
+    }
+    .MuiTextField {
+      color: white;
+    }
+  }
+}
+.spinner {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  background: url(/link/to/your/image);
+  background-size: 100%;
+}
+.moviereviews {
+  padding-bottom: 10px;
+  p {
+    max-height: 50px;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .fillreview {
+    max-height: 999px;
+    cursor: default !important;
+  }
+}

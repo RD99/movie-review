@@ -1,0 +1,200 @@
+body {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#330867), to(#30cfd0));
+  background-image: linear-gradient(to top, #330867 0%, #30cfd0 100%);
+  color: white;
+}
+
+.header {
+  height: 10vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.header img {
+  max-height: 10vh;
+}
+
+.header header {
+  height: 100%;
+}
+
+.login {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login label {
+  color: white;
+}
+
+.login input {
+  color: white;
+}
+
+.login .MuiPaper-root {
+  background-color: #3f51b5;
+  color: white;
+  text-align: center;
+}
+
+.login .MuiPaper-root p {
+  margin-top: 10px;
+}
+
+.login .MuiPaper-root .MuiTextField {
+  color: white;
+}
+
+.login img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 0px;
+}
+
+.login form {
+  margin: 0 50px 10px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signup .MuiPaper-root {
+  background-color: #3f51b5;
+  color: white;
+  text-align: center;
+}
+
+.signup .MuiPaper-root p {
+  margin-top: 10px;
+}
+
+.signup .MuiPaper-root .MuiTextField {
+  color: white;
+}
+
+.signup img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 0px;
+}
+
+.signup form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 50%;
+          flex: 0 50%;
+  margin: 0 50px 50px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.movies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.searchbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.searchbar label {
+  color: white;
+}
+
+.moviecard {
+  margin: 20px;
+}
+
+.moviecard .MuiPaper-root {
+  text-align: center;
+  background-color: #3f51b5;
+  color: white;
+}
+
+.moviecard .MuiPaper-root p {
+  margin-top: 10px;
+}
+
+.moviecard .MuiPaper-root .MuiTextField {
+  color: white;
+}
+
+.spinner {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  background: url(/link/to/your/image);
+  background-size: 100%;
+}
+
+.moviereviews {
+  padding-bottom: 10px;
+}
+
+.moviereviews p {
+  max-height: 50px;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.moviereviews .fillreview {
+  max-height: 999px;
+  cursor: default !important;
+}
+/*# sourceMappingURL=app.css.map */
